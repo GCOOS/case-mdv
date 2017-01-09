@@ -76,8 +76,6 @@
     name="NRL_STD/surf_el_detlcl" />
   </MainLayers>
   <!-- NRL STD END -->
-
-  <!-- NRL 8 WEEK BEGIN -->
   <!-- NRL 8 WEEK MEAN Begin -->
   <MainLayers>
   <layer Menu="models,nrl_8w,nrl_mean,nrl_water_v"
@@ -104,7 +102,6 @@
     name="NRL_MEAN_8W/surf_el_detlcl" />
   </MainLayers>
   <!-- NRL MEAN 8 WEEK END -->
-
   <!-- NRL STD 8 WEEK BEGIN -->
   <MainLayers>
   <layer Menu="models,nrl_8w,nrl_std,nrl_water_temp"
@@ -133,27 +130,9 @@
   <!-- NRL 8 WEEK END -->
 
   <!-- NCOM BEGIN -->
-  <MainLayers>
-  <layer Menu="models,ncom,ncom_water_v"
-    format="image/png"
-    ncWMS="true"
-    server="http://ecowatch.ncddc.noaa.gov/thredds/wms/ncom_amseas_agg/AmSeas_Apr_05_2013_to_Current_best.ncd"
-    EN="NCOM Velocity"
-    style="vector"
-    name="sea_water_velocity" />
-  </MainLayers>
   <!-- NCOM END -->
 
   <!-- HYCOM BEGIN -->
-  <MainLayers>
-  <layer Menu="models,hycom,hycom_water_v"
-    format="image/png"
-    ncWMS="true"
-    server="http://ecowatch.ncddc.noaa.gov/thredds/wms/hycom/hycom_sfc_agg/HYCOM_Surface_Aggregation_best.ncd"
-    EN="Global HYCOM Velocity"
-    style="vector"
-    name="sea_water_velocity" />
-  </MainLayers>
   <!-- HYCOM END -->
   <!-- Models End -->
 
